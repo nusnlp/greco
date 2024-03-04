@@ -2,7 +2,7 @@
 This repository provides the code to easily score, re-rank, and combine corrections from Grammatical Error Correction (GEC) models, as reported in this paper:
 > System Combination via Quality Estimation for Grammatical Error Correction <br>
 > [Muhammad Reza Qorib](https://mrqorib.github.io/) and [Hwee Tou Ng](https://www.comp.nus.edu.sg/~nght/) <br>
-> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP) ([PDF](https://arxiv.org/abs/2310.14947))
+> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP) ([PDF](https://aclanthology.org/2023.emnlp-main.785.pdf))
 
 ## Installation
 Please install the necessary libraries by running the following commands:
@@ -22,7 +22,7 @@ git clone https://github.com/kokeman/SOME
 ```
 And download the model checkpoints from 
 - https://github.com/nusnlp/neuqe to `checkpoints/neuqe` folder.
-- https://github.com/nusnlp/neuqe to `checkpoints/vernet` folder.
+- https://github.com/thunlp/VERNet/ to `checkpoints/vernet` folder.
 - https://github.com/kokeman/SOME to `checkpoints/some` folder.
 
 ## Quality Estimation
