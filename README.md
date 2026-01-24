@@ -8,7 +8,7 @@ This repository provides the code to easily score, re-rank, and combine correcti
 Please install the necessary libraries by running the following commands:
 ```
 pip install -e requirements.txt
-wget -P models https://sterling8.d2.comp.nus.edu.sg/~reza/GRECO/checkpoint.bin
+wget -P models https://huggingface.co/nusnlp/GRECO/resolve/main/checkpoint/checkpoint.bin
 wget https://www.comp.nus.edu.sg/~nlp/sw/m2scorer.tar.gz
 tar -xf m2scorer.tar.gz
 ```
@@ -92,4 +92,5 @@ python train.py --do_train --model_name_or_path microsoft/deberta-v3-large --out
 ```
 
 ## License
+
 The source code and models in this repository are licensed under the GNU General Public License Version 3 (see [License](./LICENSE.txt)). For commercial use of this code and models, separate commercial licensing is also available. Please contact Hwee Tou Ng (nght@comp.nus.edu.sg)
